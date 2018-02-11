@@ -15,9 +15,6 @@
 		8209D98B24B235B6F5EC9E8DD4E0C951 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B644F3F35FE3A9285F78522A2586 /* ReplaceMe.m */; };
 		A1EE738BC65B15F086B56FE2BE97EE3D /* Pods-TinySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E48F69B26C20FBE644BD77EED455D77F /* Pods-TinySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A36ADE511915FB114C71A0FDED3CBE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AE1D5D0420300E6000C22F81 /* libTinyFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */; };
-		AE1D5D0520300E6000C22F81 /* libTiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0220300E6000C22F81 /* libTiny.a */; };
-		AE1D5D0620300E6000C22F81 /* libTinyDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0320300E6000C22F81 /* libTinyDebug.a */; };
 		AE1D5D8B2030135C00C22F81 /* TinySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D892030135C00C22F81 /* TinySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D8C2030135C00C22F81 /* TinySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D5D8A2030135C00C22F81 /* TinySDK.m */; };
 		AE1D6094203021CA00C22F81 /* TFManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D6092203021CA00C22F81 /* TFManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,9 +55,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		966F130A47E4549B0752E44407CA6290 /* Pods_TinySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A828F62C1608B7B5974D52D81FD38127 /* TinySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTinyFrame.a; sourceTree = "<group>"; };
-		AE1D5D0220300E6000C22F81 /* libTiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTiny.a; sourceTree = "<group>"; };
-		AE1D5D0320300E6000C22F81 /* libTinyDebug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTinyDebug.a; sourceTree = "<group>"; };
 		AE1D5D892030135C00C22F81 /* TinySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TinySDK.h; path = TinySDK/Classes/TinySDK.h; sourceTree = "<group>"; };
 		AE1D5D8A2030135C00C22F81 /* TinySDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TinySDK.m; path = TinySDK/Classes/TinySDK.m; sourceTree = "<group>"; };
 		AE1D6092203021CA00C22F81 /* TFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFManager.h; sourceTree = "<group>"; };
@@ -87,9 +81,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0331F499E7E700D06207645DD06290F8 /* Foundation.framework in Frameworks */,
-				AE1D5D0420300E6000C22F81 /* libTinyFrame.a in Frameworks */,
-				AE1D5D0520300E6000C22F81 /* libTiny.a in Frameworks */,
-				AE1D5D0620300E6000C22F81 /* libTinyDebug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +218,6 @@
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE1D5D0220300E6000C22F81 /* libTiny.a */,
-				AE1D5D0320300E6000C22F81 /* libTinyDebug.a */,
-				AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */,
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
