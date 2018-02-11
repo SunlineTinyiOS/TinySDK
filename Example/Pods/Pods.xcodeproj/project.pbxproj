@@ -44,7 +44,6 @@
 		AE1D5D5E20300EB100C22F81 /* TFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1F20300EB100C22F81 /* TFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D5F20300EB100C22F81 /* TFTabBarContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6020300EB100C22F81 /* Tml.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2120300EB100C22F81 /* Tml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6120300EB100C22F81 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2220300EB100C22F81 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6220300EB100C22F81 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2320300EB100C22F81 /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6320300EB100C22F81 /* JSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2420300EB100C22F81 /* JSWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6420300EB100C22F81 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,7 +53,6 @@
 		AE1D5D6820300EB100C22F81 /* TFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2920300EB100C22F81 /* TFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6920300EB100C22F81 /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2A20300EB100C22F81 /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6A20300EB100C22F81 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2B20300EB100C22F81 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6B20300EB100C22F81 /* DebugViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2C20300EB100C22F81 /* DebugViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6C20300EB100C22F81 /* TYPasswordCover.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6D20300EB100C22F81 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2E20300EB100C22F81 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D6E20300EB100C22F81 /* TPTPSnsPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,7 +61,6 @@
 		AE1D5D7120300EB100C22F81 /* DocumentContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3320300EB100C22F81 /* DocumentContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D7220300EB100C22F81 /* ViewMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3420300EB100C22F81 /* ViewMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D7320300EB100C22F81 /* Phlog.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3520300EB100C22F81 /* Phlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7420300EB100C22F81 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3620300EB100C22F81 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D7520300EB100C22F81 /* XMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3720300EB100C22F81 /* XMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D7620300EB100C22F81 /* TYKeyboardDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1D5D7720300EB100C22F81 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3920300EB100C22F81 /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -145,7 +142,6 @@
 		AE1D5D1F20300EB100C22F81 /* TFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBar.h; sourceTree = "<group>"; };
 		AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBarContainer.h; sourceTree = "<group>"; };
 		AE1D5D2120300EB100C22F81 /* Tml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tml.h; sourceTree = "<group>"; };
-		AE1D5D2220300EB100C22F81 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		AE1D5D2320300EB100C22F81 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		AE1D5D2420300EB100C22F81 /* JSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWindow.h; sourceTree = "<group>"; };
 		AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -155,7 +151,6 @@
 		AE1D5D2920300EB100C22F81 /* TFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDocument.h; sourceTree = "<group>"; };
 		AE1D5D2A20300EB100C22F81 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
 		AE1D5D2B20300EB100C22F81 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		AE1D5D2C20300EB100C22F81 /* DebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
 		AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPasswordCover.h; sourceTree = "<group>"; };
 		AE1D5D2E20300EB100C22F81 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTPSnsPlatform.h; sourceTree = "<group>"; };
@@ -164,7 +159,6 @@
 		AE1D5D3320300EB100C22F81 /* DocumentContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentContext.h; sourceTree = "<group>"; };
 		AE1D5D3420300EB100C22F81 /* ViewMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMapping.h; sourceTree = "<group>"; };
 		AE1D5D3520300EB100C22F81 /* Phlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phlog.h; sourceTree = "<group>"; };
-		AE1D5D3620300EB100C22F81 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		AE1D5D3720300EB100C22F81 /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
 		AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYKeyboardDelegate.h; sourceTree = "<group>"; };
 		AE1D5D3920300EB100C22F81 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
@@ -339,7 +333,6 @@
 				AE1D5D1F20300EB100C22F81 /* TFTabBar.h */,
 				AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */,
 				AE1D5D2120300EB100C22F81 /* Tml.h */,
-				AE1D5D2220300EB100C22F81 /* WXApi.h */,
 				AE1D5D2320300EB100C22F81 /* View.h */,
 				AE1D5D2420300EB100C22F81 /* JSWindow.h */,
 				AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */,
@@ -349,7 +342,6 @@
 				AE1D5D2920300EB100C22F81 /* TFDocument.h */,
 				AE1D5D2A20300EB100C22F81 /* Element.h */,
 				AE1D5D2B20300EB100C22F81 /* Reachability.h */,
-				AE1D5D2C20300EB100C22F81 /* DebugViewController.h */,
 				AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */,
 				AE1D5D2E20300EB100C22F81 /* Document.h */,
 				AE1D5D2F20300EB100C22F81 /* TinyPlus */,
@@ -357,7 +349,6 @@
 				AE1D5D3320300EB100C22F81 /* DocumentContext.h */,
 				AE1D5D3420300EB100C22F81 /* ViewMapping.h */,
 				AE1D5D3520300EB100C22F81 /* Phlog.h */,
-				AE1D5D3620300EB100C22F81 /* WXApiObject.h */,
 				AE1D5D3720300EB100C22F81 /* XMLNode.h */,
 				AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */,
 				AE1D5D3920300EB100C22F81 /* Request.h */,
@@ -459,10 +450,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE1D5D5F20300EB100C22F81 /* TFTabBarContainer.h in Headers */,
-				AE1D5D7420300EB100C22F81 /* WXApiObject.h in Headers */,
 				AE1D5D6320300EB100C22F81 /* JSWindow.h in Headers */,
 				AE1D5D4920300EB100C22F81 /* Hsml.h in Headers */,
-				AE1D5D6120300EB100C22F81 /* WXApi.h in Headers */,
 				AE1D5D4820300EB100C22F81 /* TFrame.h in Headers */,
 				AE1D5D5520300EB100C22F81 /* TPShareConfig.h in Headers */,
 				AE1D5D8220300EB100C22F81 /* TextNode.h in Headers */,
@@ -493,7 +482,6 @@
 				AE1D5D7820300EB100C22F81 /* ViewContext.h in Headers */,
 				AE1D5D5E20300EB100C22F81 /* TFTabBar.h in Headers */,
 				AE1D5D6D20300EB100C22F81 /* Document.h in Headers */,
-				AE1D5D6B20300EB100C22F81 /* DebugViewController.h in Headers */,
 				AE1D5D7620300EB100C22F81 /* TYKeyboardDelegate.h in Headers */,
 				AE1D5D6520300EB100C22F81 /* TFPage.h in Headers */,
 				AE1D5D7B20300EB100C22F81 /* UMessage.h in Headers */,
