@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TFManager.h"
 
 @interface TinySDK : NSObject
 
