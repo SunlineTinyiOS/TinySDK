@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TinySDK_Example' do
+  pod 'TinySDK', :path => '../'
+
+  target 'TinySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

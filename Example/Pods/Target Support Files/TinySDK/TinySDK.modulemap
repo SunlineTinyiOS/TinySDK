@@ -1,0 +1,6 @@
+framework module TinySDK {
+  umbrella header "TinySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

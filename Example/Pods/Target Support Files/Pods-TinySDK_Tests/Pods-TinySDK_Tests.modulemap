@@ -1,0 +1,6 @@
+framework module Pods_TinySDK_Tests {
+  umbrella header "Pods-TinySDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

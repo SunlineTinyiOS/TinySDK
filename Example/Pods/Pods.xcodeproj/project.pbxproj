@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0331F499E7E700D06207645DD06290F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1888492743CFE17956E2C7568D569678 /* TinySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9059C2022BF31C8F41B3E038172FD6E7 /* TinySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C62BE2DA93DD06615692E0AAFEF7C2 /* Pods-TinySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3E768065B33ADCC4890F9F9B37558 /* Pods-TinySDK_Tests-dummy.m */; };
+		785BF8F777DD6CAFFDBC22E178D1FEE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7D0FC94DC7BC792B643A827FC5721B87 /* Pods-TinySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 646A9BBB4FC3AE2986563FE3BF968453 /* Pods-TinySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8209D98B24B235B6F5EC9E8DD4E0C951 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B644F3F35FE3A9285F78522A2586 /* ReplaceMe.m */; };
+		A1EE738BC65B15F086B56FE2BE97EE3D /* Pods-TinySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E48F69B26C20FBE644BD77EED455D77F /* Pods-TinySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36ADE511915FB114C71A0FDED3CBE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE1D5D0420300E6000C22F81 /* libTinyFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */; };
+		AE1D5D0520300E6000C22F81 /* libTiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0220300E6000C22F81 /* libTiny.a */; };
+		AE1D5D0620300E6000C22F81 /* libTinyDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0320300E6000C22F81 /* libTinyDebug.a */; };
+		AE1D5D4720300EB100C22F81 /* Box.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0820300EB100C22F81 /* Box.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4820300EB100C22F81 /* TFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0920300EB100C22F81 /* TFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4920300EB100C22F81 /* Hsml.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0A20300EB100C22F81 /* Hsml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4A20300EB100C22F81 /* Embed.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0B20300EB100C22F81 /* Embed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4B20300EB100C22F81 /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0C20300EB100C22F81 /* Input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4C20300EB100C22F81 /* Control.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0D20300EB100C22F81 /* Control.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4D20300EB100C22F81 /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0E20300EB100C22F81 /* Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4E20300EB100C22F81 /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0F20300EB100C22F81 /* Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D4F20300EB100C22F81 /* ScriptElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1020300EB100C22F81 /* ScriptElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5020300EB100C22F81 /* Response.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1120300EB100C22F81 /* Response.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5120300EB100C22F81 /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1220300EB100C22F81 /* XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5220300EB100C22F81 /* TFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1320300EB100C22F81 /* TFViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5320300EB100C22F81 /* ElementContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1420300EB100C22F81 /* ElementContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5420300EB100C22F81 /* HSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1520300EB100C22F81 /* HSTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5520300EB100C22F81 /* TPShareConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1620300EB100C22F81 /* TPShareConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5620300EB100C22F81 /* FilePathCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1720300EB100C22F81 /* FilePathCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5720300EB100C22F81 /* TYNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1820300EB100C22F81 /* TYNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5820300EB100C22F81 /* TFManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1920300EB100C22F81 /* TFManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5920300EB100C22F81 /* HsCode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1A20300EB100C22F81 /* HsCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5A20300EB100C22F81 /* NetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1B20300EB100C22F81 /* NetworkConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5B20300EB100C22F81 /* NetworkDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1C20300EB100C22F81 /* NetworkDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5C20300EB100C22F81 /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1D20300EB100C22F81 /* Window.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5D20300EB100C22F81 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1E20300EB100C22F81 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5E20300EB100C22F81 /* TFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1F20300EB100C22F81 /* TFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D5F20300EB100C22F81 /* TFTabBarContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6020300EB100C22F81 /* Tml.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2120300EB100C22F81 /* Tml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6120300EB100C22F81 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2220300EB100C22F81 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6220300EB100C22F81 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2320300EB100C22F81 /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6320300EB100C22F81 /* JSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2420300EB100C22F81 /* JSWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6420300EB100C22F81 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6520300EB100C22F81 /* TFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2620300EB100C22F81 /* TFPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6620300EB100C22F81 /* TinyView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2720300EB100C22F81 /* TinyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6720300EB100C22F81 /* CssParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2820300EB100C22F81 /* CssParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6820300EB100C22F81 /* TFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2920300EB100C22F81 /* TFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6920300EB100C22F81 /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2A20300EB100C22F81 /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6A20300EB100C22F81 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2B20300EB100C22F81 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6B20300EB100C22F81 /* DebugViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2C20300EB100C22F81 /* DebugViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6C20300EB100C22F81 /* TYPasswordCover.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6D20300EB100C22F81 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2E20300EB100C22F81 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6E20300EB100C22F81 /* TPTPSnsPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D6F20300EB100C22F81 /* TinyPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3120300EB100C22F81 /* TinyPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7020300EB100C22F81 /* WindowsManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3220300EB100C22F81 /* WindowsManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7120300EB100C22F81 /* DocumentContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3320300EB100C22F81 /* DocumentContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7220300EB100C22F81 /* ViewMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3420300EB100C22F81 /* ViewMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7320300EB100C22F81 /* Phlog.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3520300EB100C22F81 /* Phlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7420300EB100C22F81 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3620300EB100C22F81 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7520300EB100C22F81 /* XMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3720300EB100C22F81 /* XMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7620300EB100C22F81 /* TYKeyboardDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7720300EB100C22F81 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3920300EB100C22F81 /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7820300EB100C22F81 /* ViewContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3A20300EB100C22F81 /* ViewContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7920300EB100C22F81 /* PositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3B20300EB100C22F81 /* PositionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7A20300EB100C22F81 /* ViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3C20300EB100C22F81 /* ViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7B20300EB100C22F81 /* UMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3D20300EB100C22F81 /* UMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7C20300EB100C22F81 /* Password.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3E20300EB100C22F81 /* Password.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7D20300EB100C22F81 /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3F20300EB100C22F81 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7E20300EB100C22F81 /* JSFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4020300EB100C22F81 /* JSFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D7F20300EB100C22F81 /* TYGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4120300EB100C22F81 /* TYGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8020300EB100C22F81 /* TDAir.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4220300EB100C22F81 /* TDAir.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8120300EB100C22F81 /* UIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4320300EB100C22F81 /* UIColorAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8220300EB100C22F81 /* TextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4420300EB100C22F81 /* TextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8320300EB100C22F81 /* NativeNetworkCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4520300EB100C22F81 /* NativeNetworkCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8420300EB100C22F81 /* RichText.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4620300EB100C22F81 /* RichText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D670CFB4BAE0B1DF93C1803A7A6FD915 /* TinySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68665AD6924DB6AAB88024E32FB47C1C /* TinySDK-dummy.m */; };
+		EE4E42597341B3C59029B442140A57D9 /* Pods-TinySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA31CE3FD3F7314C489632E7A6A5F7D /* Pods-TinySDK_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231A809D4103A3322F5CAFA997211715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C610265DAF54610813817B61C249C9A2;
+			remoteInfo = TinySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0577EA7FED6FCD8CC795FE9A2A417767 /* Pods-TinySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		156C637BF5306803CF19AC9A0FBB8EE6 /* Pods-TinySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		34CD45FDD7070B66B0075B1F26E3A28C /* Pods-TinySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		38B470C08CEA909C915906F7AE029E18 /* Pods-TinySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinySDK_Example-resources.sh"; sourceTree = "<group>"; };
+		3ECF69575A9AB9DD14D980C17FE1937F /* TinySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinySDK.xcconfig; sourceTree = "<group>"; };
+		464A9B3A34CDA4A83DEA96B84418C79C /* Pods_TinySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488976BC8FC7ABC673B0479A2CC3403C /* TinySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TinySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D08239D22F590334DAF70008B2CC2EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646A9BBB4FC3AE2986563FE3BF968453 /* Pods-TinySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68665AD6924DB6AAB88024E32FB47C1C /* TinySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinySDK-dummy.m"; sourceTree = "<group>"; };
+		6AA31CE3FD3F7314C489632E7A6A5F7D /* Pods-TinySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		6FF3E768065B33ADCC4890F9F9B37558 /* Pods-TinySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		78C6BFFCA196CAC893C2EA7C6061FB1C /* Pods-TinySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		7EA9B728A34342A1B83976FBE631343B /* TinySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TinySDK.modulemap; sourceTree = "<group>"; };
+		9059C2022BF31C8F41B3E038172FD6E7 /* TinySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinySDK-umbrella.h"; sourceTree = "<group>"; };
+		92009F3C796FAB26B7D8294962DD6B62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		92E8D5A7D4EA901615EA1155BDEDB045 /* Pods-TinySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TinySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966F130A47E4549B0752E44407CA6290 /* Pods_TinySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A828F62C1608B7B5974D52D81FD38127 /* TinySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTinyFrame.a; sourceTree = "<group>"; };
+		AE1D5D0220300E6000C22F81 /* libTiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTiny.a; sourceTree = "<group>"; };
+		AE1D5D0320300E6000C22F81 /* libTinyDebug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTinyDebug.a; sourceTree = "<group>"; };
+		AE1D5D0820300EB100C22F81 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		AE1D5D0920300EB100C22F81 /* TFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFrame.h; sourceTree = "<group>"; };
+		AE1D5D0A20300EB100C22F81 /* Hsml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hsml.h; sourceTree = "<group>"; };
+		AE1D5D0B20300EB100C22F81 /* Embed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Embed.h; sourceTree = "<group>"; };
+		AE1D5D0C20300EB100C22F81 /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		AE1D5D0D20300EB100C22F81 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		AE1D5D0E20300EB100C22F81 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		AE1D5D0F20300EB100C22F81 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		AE1D5D1020300EB100C22F81 /* ScriptElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptElement.h; sourceTree = "<group>"; };
+		AE1D5D1120300EB100C22F81 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		AE1D5D1220300EB100C22F81 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		AE1D5D1320300EB100C22F81 /* TFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		AE1D5D1420300EB100C22F81 /* ElementContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementContext.h; sourceTree = "<group>"; };
+		AE1D5D1520300EB100C22F81 /* HSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSTextField.h; sourceTree = "<group>"; };
+		AE1D5D1620300EB100C22F81 /* TPShareConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPShareConfig.h; sourceTree = "<group>"; };
+		AE1D5D1720300EB100C22F81 /* FilePathCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePathCache.h; sourceTree = "<group>"; };
+		AE1D5D1820300EB100C22F81 /* TYNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNumberPad.h; sourceTree = "<group>"; };
+		AE1D5D1920300EB100C22F81 /* TFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFManager.h; sourceTree = "<group>"; };
+		AE1D5D1A20300EB100C22F81 /* HsCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsCode.h; sourceTree = "<group>"; };
+		AE1D5D1B20300EB100C22F81 /* NetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConstants.h; sourceTree = "<group>"; };
+		AE1D5D1C20300EB100C22F81 /* NetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDelegate.h; sourceTree = "<group>"; };
+		AE1D5D1D20300EB100C22F81 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		AE1D5D1E20300EB100C22F81 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AE1D5D1F20300EB100C22F81 /* TFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBar.h; sourceTree = "<group>"; };
+		AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBarContainer.h; sourceTree = "<group>"; };
+		AE1D5D2120300EB100C22F81 /* Tml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tml.h; sourceTree = "<group>"; };
+		AE1D5D2220300EB100C22F81 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		AE1D5D2320300EB100C22F81 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		AE1D5D2420300EB100C22F81 /* JSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWindow.h; sourceTree = "<group>"; };
+		AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		AE1D5D2620300EB100C22F81 /* TFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPage.h; sourceTree = "<group>"; };
+		AE1D5D2720300EB100C22F81 /* TinyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyView.h; sourceTree = "<group>"; };
+		AE1D5D2820300EB100C22F81 /* CssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CssParser.h; sourceTree = "<group>"; };
+		AE1D5D2920300EB100C22F81 /* TFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDocument.h; sourceTree = "<group>"; };
+		AE1D5D2A20300EB100C22F81 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		AE1D5D2B20300EB100C22F81 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AE1D5D2C20300EB100C22F81 /* DebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPasswordCover.h; sourceTree = "<group>"; };
+		AE1D5D2E20300EB100C22F81 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTPSnsPlatform.h; sourceTree = "<group>"; };
+		AE1D5D3120300EB100C22F81 /* TinyPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPlus.h; sourceTree = "<group>"; };
+		AE1D5D3220300EB100C22F81 /* WindowsManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsManagerProtocol.h; sourceTree = "<group>"; };
+		AE1D5D3320300EB100C22F81 /* DocumentContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentContext.h; sourceTree = "<group>"; };
+		AE1D5D3420300EB100C22F81 /* ViewMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMapping.h; sourceTree = "<group>"; };
+		AE1D5D3520300EB100C22F81 /* Phlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phlog.h; sourceTree = "<group>"; };
+		AE1D5D3620300EB100C22F81 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		AE1D5D3720300EB100C22F81 /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
+		AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYKeyboardDelegate.h; sourceTree = "<group>"; };
+		AE1D5D3920300EB100C22F81 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		AE1D5D3A20300EB100C22F81 /* ViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContext.h; sourceTree = "<group>"; };
+		AE1D5D3B20300EB100C22F81 /* PositionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionView.h; sourceTree = "<group>"; };
+		AE1D5D3C20300EB100C22F81 /* ViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConstants.h; sourceTree = "<group>"; };
+		AE1D5D3D20300EB100C22F81 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		AE1D5D3E20300EB100C22F81 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
+		AE1D5D3F20300EB100C22F81 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		AE1D5D4020300EB100C22F81 /* JSFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFunction.h; sourceTree = "<group>"; };
+		AE1D5D4120300EB100C22F81 /* TYGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGlobal.h; sourceTree = "<group>"; };
+		AE1D5D4220300EB100C22F81 /* TDAir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAir.h; sourceTree = "<group>"; };
+		AE1D5D4320300EB100C22F81 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		AE1D5D4420300EB100C22F81 /* TextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextNode.h; sourceTree = "<group>"; };
+		AE1D5D4520300EB100C22F81 /* NativeNetworkCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeNetworkCenter.h; sourceTree = "<group>"; };
+		AE1D5D4620300EB100C22F81 /* RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichText.h; sourceTree = "<group>"; };
+		BD3D5A6966BE446952CEC8D19AE7080D /* Pods-TinySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1723FEA591A4F443C00CF5957A73226 /* Pods-TinySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C624B7AAC74561B83843630944573E27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C720FA2C7897E34BC34F3BACB27389AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D38DB09E831B10A20F47633310A2B523 /* Pods-TinySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D453F44DEF2E9A575B61CD2423DA8032 /* TinySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinySDK-prefix.pch"; sourceTree = "<group>"; };
+		DDA7B644F3F35FE3A9285F78522A2586 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TinySDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E48F69B26C20FBE644BD77EED455D77F /* Pods-TinySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5A7943169DC65AAF30F707408DE6F67 /* Pods-TinySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7B214CAFBE7A248BE568D17DD03D1D7 /* Pods-TinySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EFB3C280640E8C7AD8A594219CB182DA /* Pods-TinySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TinySDK_Example.modulemap"; sourceTree = "<group>"; };
+		F6124DEE888703D541345D2FF0FED2AD /* Pods-TinySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB4457CD6BE7B3E8016BA47DCE1455A0 /* Pods-TinySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7A44408388EB3C36D1D331C59A8554 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313EF52AC56393C412F6CA23280C0DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331F499E7E700D06207645DD06290F8 /* Foundation.framework in Frameworks */,
+				AE1D5D0420300E6000C22F81 /* libTinyFrame.a in Frameworks */,
+				AE1D5D0520300E6000C22F81 /* libTiny.a in Frameworks */,
+				AE1D5D0620300E6000C22F81 /* libTinyDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0FAF8C6A40F16000092A49A7B0B9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785BF8F777DD6CAFFDBC22E178D1FEE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0657AA6DE7204C9D165D0D8C3C249C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36ADE511915FB114C71A0FDED3CBE4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3F895759F17A7BBAFA6EF317F5A9D1 /* Pods-TinySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4D08239D22F590334DAF70008B2CC2EE /* Info.plist */,
+				EFB3C280640E8C7AD8A594219CB182DA /* Pods-TinySDK_Example.modulemap */,
+				E5A7943169DC65AAF30F707408DE6F67 /* Pods-TinySDK_Example-acknowledgements.markdown */,
+				156C637BF5306803CF19AC9A0FBB8EE6 /* Pods-TinySDK_Example-acknowledgements.plist */,
+				6AA31CE3FD3F7314C489632E7A6A5F7D /* Pods-TinySDK_Example-dummy.m */,
+				E7B214CAFBE7A248BE568D17DD03D1D7 /* Pods-TinySDK_Example-frameworks.sh */,
+				38B470C08CEA909C915906F7AE029E18 /* Pods-TinySDK_Example-resources.sh */,
+				646A9BBB4FC3AE2986563FE3BF968453 /* Pods-TinySDK_Example-umbrella.h */,
+				FB4457CD6BE7B3E8016BA47DCE1455A0 /* Pods-TinySDK_Example.debug.xcconfig */,
+				D38DB09E831B10A20F47633310A2B523 /* Pods-TinySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-TinySDK_Example";
+			path = "Target Support Files/Pods-TinySDK_Example";
+			sourceTree = "<group>";
+		};
+		3098DD5B2D5000A701D2605537BB7B96 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB04D29877E2E0ED536FF87E147EF4B9 /* TinySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		31F2DA9E66320E89E93C19FA93A174D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F895759F17A7BBAFA6EF317F5A9D1 /* Pods-TinySDK_Example */,
+				ED4D429FB71D7AC451C5671BDA467131 /* Pods-TinySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F8131ECE164FE647EA4D4D372E622B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92009F3C796FAB26B7D8294962DD6B62 /* LICENSE */,
+				C720FA2C7897E34BC34F3BACB27389AB /* README.md */,
+				488976BC8FC7ABC673B0479A2CC3403C /* TinySDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		762D464C18E07AEDCD5C8078FB8F846B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C624B7AAC74561B83843630944573E27 /* Info.plist */,
+				7EA9B728A34342A1B83976FBE631343B /* TinySDK.modulemap */,
+				3ECF69575A9AB9DD14D980C17FE1937F /* TinySDK.xcconfig */,
+				68665AD6924DB6AAB88024E32FB47C1C /* TinySDK-dummy.m */,
+				D453F44DEF2E9A575B61CD2423DA8032 /* TinySDK-prefix.pch */,
+				9059C2022BF31C8F41B3E038172FD6E7 /* TinySDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TinySDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3098DD5B2D5000A701D2605537BB7B96 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CBD69CF07A80F76FA81CD66C239DD496 /* Products */,
+				31F2DA9E66320E89E93C19FA93A174D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AB04D29877E2E0ED536FF87E147EF4B9 /* TinySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D5D0720300EB100C22F81 /* include */,
+				DDA7B644F3F35FE3A9285F78522A2586 /* ReplaceMe.m */,
+				6F8131ECE164FE647EA4D4D372E622B3 /* Pod */,
+				762D464C18E07AEDCD5C8078FB8F846B /* Support Files */,
+			);
+			name = TinySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AE1D5D0720300EB100C22F81 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D5D0820300EB100C22F81 /* Box.h */,
+				AE1D5D0920300EB100C22F81 /* TFrame.h */,
+				AE1D5D0A20300EB100C22F81 /* Hsml.h */,
+				AE1D5D0B20300EB100C22F81 /* Embed.h */,
+				AE1D5D0C20300EB100C22F81 /* Input.h */,
+				AE1D5D0D20300EB100C22F81 /* Control.h */,
+				AE1D5D0E20300EB100C22F81 /* Debug.h */,
+				AE1D5D0F20300EB100C22F81 /* Label.h */,
+				AE1D5D1020300EB100C22F81 /* ScriptElement.h */,
+				AE1D5D1120300EB100C22F81 /* Response.h */,
+				AE1D5D1220300EB100C22F81 /* XMLParser.h */,
+				AE1D5D1320300EB100C22F81 /* TFViewController.h */,
+				AE1D5D1420300EB100C22F81 /* ElementContext.h */,
+				AE1D5D1520300EB100C22F81 /* HSTextField.h */,
+				AE1D5D1620300EB100C22F81 /* TPShareConfig.h */,
+				AE1D5D1720300EB100C22F81 /* FilePathCache.h */,
+				AE1D5D1820300EB100C22F81 /* TYNumberPad.h */,
+				AE1D5D1920300EB100C22F81 /* TFManager.h */,
+				AE1D5D1A20300EB100C22F81 /* HsCode.h */,
+				AE1D5D1B20300EB100C22F81 /* NetworkConstants.h */,
+				AE1D5D1C20300EB100C22F81 /* NetworkDelegate.h */,
+				AE1D5D1D20300EB100C22F81 /* Window.h */,
+				AE1D5D1E20300EB100C22F81 /* Configuration.h */,
+				AE1D5D1F20300EB100C22F81 /* TFTabBar.h */,
+				AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */,
+				AE1D5D2120300EB100C22F81 /* Tml.h */,
+				AE1D5D2220300EB100C22F81 /* WXApi.h */,
+				AE1D5D2320300EB100C22F81 /* View.h */,
+				AE1D5D2420300EB100C22F81 /* JSWindow.h */,
+				AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */,
+				AE1D5D2620300EB100C22F81 /* TFPage.h */,
+				AE1D5D2720300EB100C22F81 /* TinyView.h */,
+				AE1D5D2820300EB100C22F81 /* CssParser.h */,
+				AE1D5D2920300EB100C22F81 /* TFDocument.h */,
+				AE1D5D2A20300EB100C22F81 /* Element.h */,
+				AE1D5D2B20300EB100C22F81 /* Reachability.h */,
+				AE1D5D2C20300EB100C22F81 /* DebugViewController.h */,
+				AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */,
+				AE1D5D2E20300EB100C22F81 /* Document.h */,
+				AE1D5D2F20300EB100C22F81 /* TinyPlus */,
+				AE1D5D3220300EB100C22F81 /* WindowsManagerProtocol.h */,
+				AE1D5D3320300EB100C22F81 /* DocumentContext.h */,
+				AE1D5D3420300EB100C22F81 /* ViewMapping.h */,
+				AE1D5D3520300EB100C22F81 /* Phlog.h */,
+				AE1D5D3620300EB100C22F81 /* WXApiObject.h */,
+				AE1D5D3720300EB100C22F81 /* XMLNode.h */,
+				AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */,
+				AE1D5D3920300EB100C22F81 /* Request.h */,
+				AE1D5D3A20300EB100C22F81 /* ViewContext.h */,
+				AE1D5D3B20300EB100C22F81 /* PositionView.h */,
+				AE1D5D3C20300EB100C22F81 /* ViewConstants.h */,
+				AE1D5D3D20300EB100C22F81 /* UMessage.h */,
+				AE1D5D3E20300EB100C22F81 /* Password.h */,
+				AE1D5D3F20300EB100C22F81 /* UIButton+Block.h */,
+				AE1D5D4020300EB100C22F81 /* JSFunction.h */,
+				AE1D5D4120300EB100C22F81 /* TYGlobal.h */,
+				AE1D5D4220300EB100C22F81 /* TDAir.h */,
+				AE1D5D4320300EB100C22F81 /* UIColorAdditions.h */,
+				AE1D5D4420300EB100C22F81 /* TextNode.h */,
+				AE1D5D4520300EB100C22F81 /* NativeNetworkCenter.h */,
+				AE1D5D4620300EB100C22F81 /* RichText.h */,
+			);
+			name = include;
+			path = TinySDK/Classes/include;
+			sourceTree = "<group>";
+		};
+		AE1D5D2F20300EB100C22F81 /* TinyPlus */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */,
+				AE1D5D3120300EB100C22F81 /* TinyPlus.h */,
+			);
+			path = TinyPlus;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD69CF07A80F76FA81CD66C239DD496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966F130A47E4549B0752E44407CA6290 /* Pods_TinySDK_Example.framework */,
+				464A9B3A34CDA4A83DEA96B84418C79C /* Pods_TinySDK_Tests.framework */,
+				A828F62C1608B7B5974D52D81FD38127 /* TinySDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D5D0220300E6000C22F81 /* libTiny.a */,
+				AE1D5D0320300E6000C22F81 /* libTinyDebug.a */,
+				AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED4D429FB71D7AC451C5671BDA467131 /* Pods-TinySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7A44408388EB3C36D1D331C59A8554 /* Info.plist */,
+				92E8D5A7D4EA901615EA1155BDEDB045 /* Pods-TinySDK_Tests.modulemap */,
+				F6124DEE888703D541345D2FF0FED2AD /* Pods-TinySDK_Tests-acknowledgements.markdown */,
+				BD3D5A6966BE446952CEC8D19AE7080D /* Pods-TinySDK_Tests-acknowledgements.plist */,
+				6FF3E768065B33ADCC4890F9F9B37558 /* Pods-TinySDK_Tests-dummy.m */,
+				34CD45FDD7070B66B0075B1F26E3A28C /* Pods-TinySDK_Tests-frameworks.sh */,
+				78C6BFFCA196CAC893C2EA7C6061FB1C /* Pods-TinySDK_Tests-resources.sh */,
+				E48F69B26C20FBE644BD77EED455D77F /* Pods-TinySDK_Tests-umbrella.h */,
+				0577EA7FED6FCD8CC795FE9A2A417767 /* Pods-TinySDK_Tests.debug.xcconfig */,
+				C1723FEA591A4F443C00CF5957A73226 /* Pods-TinySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-TinySDK_Tests";
+			path = "Target Support Files/Pods-TinySDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B93C8EA40B2A934251B1DD57F715DDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0FC94DC7BC792B643A827FC5721B87 /* Pods-TinySDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86498C7102962CC46B377C8537901F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EE738BC65B15F086B56FE2BE97EE3D /* Pods-TinySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39910D09CE3E6F97AF08D7D1F8E850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D5D5F20300EB100C22F81 /* TFTabBarContainer.h in Headers */,
+				AE1D5D7420300EB100C22F81 /* WXApiObject.h in Headers */,
+				AE1D5D6320300EB100C22F81 /* JSWindow.h in Headers */,
+				AE1D5D4920300EB100C22F81 /* Hsml.h in Headers */,
+				AE1D5D6120300EB100C22F81 /* WXApi.h in Headers */,
+				AE1D5D4820300EB100C22F81 /* TFrame.h in Headers */,
+				AE1D5D5520300EB100C22F81 /* TPShareConfig.h in Headers */,
+				AE1D5D8220300EB100C22F81 /* TextNode.h in Headers */,
+				AE1D5D5020300EB100C22F81 /* Response.h in Headers */,
+				AE1D5D5920300EB100C22F81 /* HsCode.h in Headers */,
+				AE1D5D5C20300EB100C22F81 /* Window.h in Headers */,
+				AE1D5D6820300EB100C22F81 /* TFDocument.h in Headers */,
+				AE1D5D5720300EB100C22F81 /* TYNumberPad.h in Headers */,
+				AE1D5D8120300EB100C22F81 /* UIColorAdditions.h in Headers */,
+				AE1D5D7F20300EB100C22F81 /* TYGlobal.h in Headers */,
+				AE1D5D7920300EB100C22F81 /* PositionView.h in Headers */,
+				AE1D5D7C20300EB100C22F81 /* Password.h in Headers */,
+				AE1D5D7220300EB100C22F81 /* ViewMapping.h in Headers */,
+				AE1D5D4F20300EB100C22F81 /* ScriptElement.h in Headers */,
+				AE1D5D6E20300EB100C22F81 /* TPTPSnsPlatform.h in Headers */,
+				AE1D5D4C20300EB100C22F81 /* Control.h in Headers */,
+				AE1D5D6420300EB100C22F81 /* MBProgressHUD.h in Headers */,
+				AE1D5D5A20300EB100C22F81 /* NetworkConstants.h in Headers */,
+				AE1D5D5320300EB100C22F81 /* ElementContext.h in Headers */,
+				AE1D5D4E20300EB100C22F81 /* Label.h in Headers */,
+				AE1D5D4720300EB100C22F81 /* Box.h in Headers */,
+				AE1D5D7120300EB100C22F81 /* DocumentContext.h in Headers */,
+				AE1D5D7520300EB100C22F81 /* XMLNode.h in Headers */,
+				AE1D5D5D20300EB100C22F81 /* Configuration.h in Headers */,
+				AE1D5D5B20300EB100C22F81 /* NetworkDelegate.h in Headers */,
+				AE1D5D5620300EB100C22F81 /* FilePathCache.h in Headers */,
+				AE1D5D6920300EB100C22F81 /* Element.h in Headers */,
+				AE1D5D7820300EB100C22F81 /* ViewContext.h in Headers */,
+				AE1D5D5E20300EB100C22F81 /* TFTabBar.h in Headers */,
+				AE1D5D6D20300EB100C22F81 /* Document.h in Headers */,
+				AE1D5D6B20300EB100C22F81 /* DebugViewController.h in Headers */,
+				AE1D5D7620300EB100C22F81 /* TYKeyboardDelegate.h in Headers */,
+				AE1D5D6520300EB100C22F81 /* TFPage.h in Headers */,
+				AE1D5D7B20300EB100C22F81 /* UMessage.h in Headers */,
+				AE1D5D7020300EB100C22F81 /* WindowsManagerProtocol.h in Headers */,
+				AE1D5D6020300EB100C22F81 /* Tml.h in Headers */,
+				AE1D5D7D20300EB100C22F81 /* UIButton+Block.h in Headers */,
+				AE1D5D5420300EB100C22F81 /* HSTextField.h in Headers */,
+				AE1D5D5820300EB100C22F81 /* TFManager.h in Headers */,
+				AE1D5D5120300EB100C22F81 /* XMLParser.h in Headers */,
+				AE1D5D5220300EB100C22F81 /* TFViewController.h in Headers */,
+				AE1D5D6220300EB100C22F81 /* View.h in Headers */,
+				AE1D5D7A20300EB100C22F81 /* ViewConstants.h in Headers */,
+				AE1D5D8420300EB100C22F81 /* RichText.h in Headers */,
+				AE1D5D6620300EB100C22F81 /* TinyView.h in Headers */,
+				AE1D5D7320300EB100C22F81 /* Phlog.h in Headers */,
+				AE1D5D7E20300EB100C22F81 /* JSFunction.h in Headers */,
+				AE1D5D6720300EB100C22F81 /* CssParser.h in Headers */,
+				AE1D5D4D20300EB100C22F81 /* Debug.h in Headers */,
+				AE1D5D6F20300EB100C22F81 /* TinyPlus.h in Headers */,
+				AE1D5D4B20300EB100C22F81 /* Input.h in Headers */,
+				AE1D5D8020300EB100C22F81 /* TDAir.h in Headers */,
+				1888492743CFE17956E2C7568D569678 /* TinySDK-umbrella.h in Headers */,
+				AE1D5D7720300EB100C22F81 /* Request.h in Headers */,
+				AE1D5D4A20300EB100C22F81 /* Embed.h in Headers */,
+				AE1D5D6C20300EB100C22F81 /* TYPasswordCover.h in Headers */,
+				AE1D5D6A20300EB100C22F81 /* Reachability.h in Headers */,
+				AE1D5D8320300EB100C22F81 /* NativeNetworkCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FFD092406941F72ADBBC469B6BD2BF3 /* Pods-TinySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774CF915EB735FDC4A0EDE9C4A482F3E /* Build configuration list for PBXNativeTarget "Pods-TinySDK_Example" */;
+			buildPhases = (
+				251ADA32E0B4DFCF758059110B3591E1 /* Sources */,
+				9F0657AA6DE7204C9D165D0D8C3C249C /* Frameworks */,
+				5B93C8EA40B2A934251B1DD57F715DDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C31D92F0D681439527F1E153DC95A1E /* PBXTargetDependency */,
+			);
+			name = "Pods-TinySDK_Example";
+			productName = "Pods-TinySDK_Example";
+			productReference = 966F130A47E4549B0752E44407CA6290 /* Pods_TinySDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C610265DAF54610813817B61C249C9A2 /* TinySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5984C55C35527B00030C021FD6D28860 /* Build configuration list for PBXNativeTarget "TinySDK" */;
+			buildPhases = (
+				CD11230EDB800AEFE586851DFBB95843 /* Sources */,
+				313EF52AC56393C412F6CA23280C0DD5 /* Frameworks */,
+				9A39910D09CE3E6F97AF08D7D1F8E850 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinySDK;
+			productName = TinySDK;
+			productReference = A828F62C1608B7B5974D52D81FD38127 /* TinySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3EEA8E31E276B6C46169BDB5E43A153 /* Pods-TinySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AEC785653A46A2D3D12B1BAE333745 /* Build configuration list for PBXNativeTarget "Pods-TinySDK_Tests" */;
+			buildPhases = (
+				1C9C5C2596275857B44C179492D0E9DB /* Sources */,
+				5A0FAF8C6A40F16000092A49A7B0B9D7 /* Frameworks */,
+				86498C7102962CC46B377C8537901F48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TinySDK_Tests";
+			productName = "Pods-TinySDK_Tests";
+			productReference = 464A9B3A34CDA4A83DEA96B84418C79C /* Pods_TinySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CBD69CF07A80F76FA81CD66C239DD496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFD092406941F72ADBBC469B6BD2BF3 /* Pods-TinySDK_Example */,
+				D3EEA8E31E276B6C46169BDB5E43A153 /* Pods-TinySDK_Tests */,
+				C610265DAF54610813817B61C249C9A2 /* TinySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9C5C2596275857B44C179492D0E9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C62BE2DA93DD06615692E0AAFEF7C2 /* Pods-TinySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251ADA32E0B4DFCF758059110B3591E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4E42597341B3C59029B442140A57D9 /* Pods-TinySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11230EDB800AEFE586851DFBB95843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8209D98B24B235B6F5EC9E8DD4E0C951 /* ReplaceMe.m in Sources */,
+				D670CFB4BAE0B1DF93C1803A7A6FD915 /* TinySDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C31D92F0D681439527F1E153DC95A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinySDK;
+			target = C610265DAF54610813817B61C249C9A2 /* TinySDK */;
+			targetProxy = 231A809D4103A3322F5CAFA997211715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B801C2856DB198FC4F93DE82E6E60D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4457CD6BE7B3E8016BA47DCE1455A0 /* Pods-TinySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinySDK_Example/Pods-TinySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TinySDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21C84762F7C0D49130489B23F009D09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECF69575A9AB9DD14D980C17FE1937F /* TinySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinySDK/TinySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinySDK/TinySDK.modulemap";
+				PRODUCT_NAME = TinySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48987AC06B902303EBBD071DCACE8642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECF69575A9AB9DD14D980C17FE1937F /* TinySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinySDK/TinySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinySDK/TinySDK.modulemap";
+				PRODUCT_NAME = TinySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9D7428729899E99733C0B91AD0F739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38DB09E831B10A20F47633310A2B523 /* Pods-TinySDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinySDK_Example/Pods-TinySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TinySDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E6E90CE8136AAACD186379E57250960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0577EA7FED6FCD8CC795FE9A2A417767 /* Pods-TinySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinySDK_Tests/Pods-TinySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TinySDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6945D31E3B77D1CBE392C6547B1DD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1723FEA591A4F443C00CF5957A73226 /* Pods-TinySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinySDK_Tests/Pods-TinySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TinySDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5984C55C35527B00030C021FD6D28860 /* Build configuration list for PBXNativeTarget "TinySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C84762F7C0D49130489B23F009D09F /* Debug */,
+				48987AC06B902303EBBD071DCACE8642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774CF915EB735FDC4A0EDE9C4A482F3E /* Build configuration list for PBXNativeTarget "Pods-TinySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B801C2856DB198FC4F93DE82E6E60D2 /* Debug */,
+				6F9D7428729899E99733C0B91AD0F739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AEC785653A46A2D3D12B1BAE333745 /* Build configuration list for PBXNativeTarget "Pods-TinySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6E90CE8136AAACD186379E57250960 /* Debug */,
+				B6945D31E3B77D1CBE392C6547B1DD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
