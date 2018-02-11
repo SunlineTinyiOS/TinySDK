@@ -18,65 +18,8 @@
 		AE1D5D0420300E6000C22F81 /* libTinyFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */; };
 		AE1D5D0520300E6000C22F81 /* libTiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0220300E6000C22F81 /* libTiny.a */; };
 		AE1D5D0620300E6000C22F81 /* libTinyDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D5D0320300E6000C22F81 /* libTinyDebug.a */; };
-		AE1D5D4720300EB100C22F81 /* Box.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0820300EB100C22F81 /* Box.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4820300EB100C22F81 /* TFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0920300EB100C22F81 /* TFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4920300EB100C22F81 /* Hsml.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0A20300EB100C22F81 /* Hsml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4A20300EB100C22F81 /* Embed.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0B20300EB100C22F81 /* Embed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4B20300EB100C22F81 /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0C20300EB100C22F81 /* Input.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4C20300EB100C22F81 /* Control.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0D20300EB100C22F81 /* Control.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4D20300EB100C22F81 /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0E20300EB100C22F81 /* Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4E20300EB100C22F81 /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D0F20300EB100C22F81 /* Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D4F20300EB100C22F81 /* ScriptElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1020300EB100C22F81 /* ScriptElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5020300EB100C22F81 /* Response.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1120300EB100C22F81 /* Response.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5120300EB100C22F81 /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1220300EB100C22F81 /* XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5220300EB100C22F81 /* TFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1320300EB100C22F81 /* TFViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5320300EB100C22F81 /* ElementContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1420300EB100C22F81 /* ElementContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5420300EB100C22F81 /* HSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1520300EB100C22F81 /* HSTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5520300EB100C22F81 /* TPShareConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1620300EB100C22F81 /* TPShareConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5620300EB100C22F81 /* FilePathCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1720300EB100C22F81 /* FilePathCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5720300EB100C22F81 /* TYNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1820300EB100C22F81 /* TYNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5820300EB100C22F81 /* TFManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1920300EB100C22F81 /* TFManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5920300EB100C22F81 /* HsCode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1A20300EB100C22F81 /* HsCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5A20300EB100C22F81 /* NetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1B20300EB100C22F81 /* NetworkConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5B20300EB100C22F81 /* NetworkDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1C20300EB100C22F81 /* NetworkDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5C20300EB100C22F81 /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1D20300EB100C22F81 /* Window.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5D20300EB100C22F81 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1E20300EB100C22F81 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5E20300EB100C22F81 /* TFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D1F20300EB100C22F81 /* TFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D5F20300EB100C22F81 /* TFTabBarContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6020300EB100C22F81 /* Tml.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2120300EB100C22F81 /* Tml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6220300EB100C22F81 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2320300EB100C22F81 /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6320300EB100C22F81 /* JSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2420300EB100C22F81 /* JSWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6420300EB100C22F81 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6520300EB100C22F81 /* TFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2620300EB100C22F81 /* TFPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6620300EB100C22F81 /* TinyView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2720300EB100C22F81 /* TinyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6720300EB100C22F81 /* CssParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2820300EB100C22F81 /* CssParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6820300EB100C22F81 /* TFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2920300EB100C22F81 /* TFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6920300EB100C22F81 /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2A20300EB100C22F81 /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6A20300EB100C22F81 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2B20300EB100C22F81 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6C20300EB100C22F81 /* TYPasswordCover.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6D20300EB100C22F81 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D2E20300EB100C22F81 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6E20300EB100C22F81 /* TPTPSnsPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D6F20300EB100C22F81 /* TinyPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3120300EB100C22F81 /* TinyPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7020300EB100C22F81 /* WindowsManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3220300EB100C22F81 /* WindowsManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7120300EB100C22F81 /* DocumentContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3320300EB100C22F81 /* DocumentContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7220300EB100C22F81 /* ViewMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3420300EB100C22F81 /* ViewMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7320300EB100C22F81 /* Phlog.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3520300EB100C22F81 /* Phlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7520300EB100C22F81 /* XMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3720300EB100C22F81 /* XMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7620300EB100C22F81 /* TYKeyboardDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7720300EB100C22F81 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3920300EB100C22F81 /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7820300EB100C22F81 /* ViewContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3A20300EB100C22F81 /* ViewContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7920300EB100C22F81 /* PositionView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3B20300EB100C22F81 /* PositionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7A20300EB100C22F81 /* ViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3C20300EB100C22F81 /* ViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7B20300EB100C22F81 /* UMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3D20300EB100C22F81 /* UMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7C20300EB100C22F81 /* Password.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3E20300EB100C22F81 /* Password.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7D20300EB100C22F81 /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D3F20300EB100C22F81 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7E20300EB100C22F81 /* JSFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4020300EB100C22F81 /* JSFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D7F20300EB100C22F81 /* TYGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4120300EB100C22F81 /* TYGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D8020300EB100C22F81 /* TDAir.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4220300EB100C22F81 /* TDAir.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D8120300EB100C22F81 /* UIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4320300EB100C22F81 /* UIColorAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D8220300EB100C22F81 /* TextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4420300EB100C22F81 /* TextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D8320300EB100C22F81 /* NativeNetworkCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4520300EB100C22F81 /* NativeNetworkCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1D5D8420300EB100C22F81 /* RichText.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D4620300EB100C22F81 /* RichText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8B2030135C00C22F81 /* TinySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D5D892030135C00C22F81 /* TinySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1D5D8C2030135C00C22F81 /* TinySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D5D8A2030135C00C22F81 /* TinySDK.m */; };
 		D670CFB4BAE0B1DF93C1803A7A6FD915 /* TinySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68665AD6924DB6AAB88024E32FB47C1C /* TinySDK-dummy.m */; };
 		EE4E42597341B3C59029B442140A57D9 /* Pods-TinySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA31CE3FD3F7314C489632E7A6A5F7D /* Pods-TinySDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -116,65 +59,8 @@
 		AE1D5D0120300E5F00C22F81 /* libTinyFrame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTinyFrame.a; sourceTree = "<group>"; };
 		AE1D5D0220300E6000C22F81 /* libTiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTiny.a; sourceTree = "<group>"; };
 		AE1D5D0320300E6000C22F81 /* libTinyDebug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTinyDebug.a; sourceTree = "<group>"; };
-		AE1D5D0820300EB100C22F81 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
-		AE1D5D0920300EB100C22F81 /* TFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFrame.h; sourceTree = "<group>"; };
-		AE1D5D0A20300EB100C22F81 /* Hsml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hsml.h; sourceTree = "<group>"; };
-		AE1D5D0B20300EB100C22F81 /* Embed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Embed.h; sourceTree = "<group>"; };
-		AE1D5D0C20300EB100C22F81 /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
-		AE1D5D0D20300EB100C22F81 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
-		AE1D5D0E20300EB100C22F81 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
-		AE1D5D0F20300EB100C22F81 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
-		AE1D5D1020300EB100C22F81 /* ScriptElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptElement.h; sourceTree = "<group>"; };
-		AE1D5D1120300EB100C22F81 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
-		AE1D5D1220300EB100C22F81 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
-		AE1D5D1320300EB100C22F81 /* TFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
-		AE1D5D1420300EB100C22F81 /* ElementContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementContext.h; sourceTree = "<group>"; };
-		AE1D5D1520300EB100C22F81 /* HSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSTextField.h; sourceTree = "<group>"; };
-		AE1D5D1620300EB100C22F81 /* TPShareConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPShareConfig.h; sourceTree = "<group>"; };
-		AE1D5D1720300EB100C22F81 /* FilePathCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePathCache.h; sourceTree = "<group>"; };
-		AE1D5D1820300EB100C22F81 /* TYNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNumberPad.h; sourceTree = "<group>"; };
-		AE1D5D1920300EB100C22F81 /* TFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFManager.h; sourceTree = "<group>"; };
-		AE1D5D1A20300EB100C22F81 /* HsCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsCode.h; sourceTree = "<group>"; };
-		AE1D5D1B20300EB100C22F81 /* NetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConstants.h; sourceTree = "<group>"; };
-		AE1D5D1C20300EB100C22F81 /* NetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDelegate.h; sourceTree = "<group>"; };
-		AE1D5D1D20300EB100C22F81 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
-		AE1D5D1E20300EB100C22F81 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
-		AE1D5D1F20300EB100C22F81 /* TFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBar.h; sourceTree = "<group>"; };
-		AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBarContainer.h; sourceTree = "<group>"; };
-		AE1D5D2120300EB100C22F81 /* Tml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tml.h; sourceTree = "<group>"; };
-		AE1D5D2320300EB100C22F81 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		AE1D5D2420300EB100C22F81 /* JSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWindow.h; sourceTree = "<group>"; };
-		AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		AE1D5D2620300EB100C22F81 /* TFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPage.h; sourceTree = "<group>"; };
-		AE1D5D2720300EB100C22F81 /* TinyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyView.h; sourceTree = "<group>"; };
-		AE1D5D2820300EB100C22F81 /* CssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CssParser.h; sourceTree = "<group>"; };
-		AE1D5D2920300EB100C22F81 /* TFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDocument.h; sourceTree = "<group>"; };
-		AE1D5D2A20300EB100C22F81 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
-		AE1D5D2B20300EB100C22F81 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPasswordCover.h; sourceTree = "<group>"; };
-		AE1D5D2E20300EB100C22F81 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTPSnsPlatform.h; sourceTree = "<group>"; };
-		AE1D5D3120300EB100C22F81 /* TinyPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPlus.h; sourceTree = "<group>"; };
-		AE1D5D3220300EB100C22F81 /* WindowsManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsManagerProtocol.h; sourceTree = "<group>"; };
-		AE1D5D3320300EB100C22F81 /* DocumentContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentContext.h; sourceTree = "<group>"; };
-		AE1D5D3420300EB100C22F81 /* ViewMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMapping.h; sourceTree = "<group>"; };
-		AE1D5D3520300EB100C22F81 /* Phlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phlog.h; sourceTree = "<group>"; };
-		AE1D5D3720300EB100C22F81 /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
-		AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYKeyboardDelegate.h; sourceTree = "<group>"; };
-		AE1D5D3920300EB100C22F81 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
-		AE1D5D3A20300EB100C22F81 /* ViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContext.h; sourceTree = "<group>"; };
-		AE1D5D3B20300EB100C22F81 /* PositionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionView.h; sourceTree = "<group>"; };
-		AE1D5D3C20300EB100C22F81 /* ViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConstants.h; sourceTree = "<group>"; };
-		AE1D5D3D20300EB100C22F81 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
-		AE1D5D3E20300EB100C22F81 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
-		AE1D5D3F20300EB100C22F81 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
-		AE1D5D4020300EB100C22F81 /* JSFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFunction.h; sourceTree = "<group>"; };
-		AE1D5D4120300EB100C22F81 /* TYGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGlobal.h; sourceTree = "<group>"; };
-		AE1D5D4220300EB100C22F81 /* TDAir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAir.h; sourceTree = "<group>"; };
-		AE1D5D4320300EB100C22F81 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
-		AE1D5D4420300EB100C22F81 /* TextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextNode.h; sourceTree = "<group>"; };
-		AE1D5D4520300EB100C22F81 /* NativeNetworkCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeNetworkCenter.h; sourceTree = "<group>"; };
-		AE1D5D4620300EB100C22F81 /* RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichText.h; sourceTree = "<group>"; };
+		AE1D5D892030135C00C22F81 /* TinySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TinySDK.h; path = TinySDK/Classes/TinySDK.h; sourceTree = "<group>"; };
+		AE1D5D8A2030135C00C22F81 /* TinySDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TinySDK.m; path = TinySDK/Classes/TinySDK.m; sourceTree = "<group>"; };
 		BD3D5A6966BE446952CEC8D19AE7080D /* Pods-TinySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1723FEA591A4F443C00CF5957A73226 /* Pods-TinySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C624B7AAC74561B83843630944573E27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -299,6 +185,8 @@
 				DDA7B644F3F35FE3A9285F78522A2586 /* ReplaceMe.m */,
 				6F8131ECE164FE647EA4D4D372E622B3 /* Pod */,
 				762D464C18E07AEDCD5C8078FB8F846B /* Support Files */,
+				AE1D5D892030135C00C22F81 /* TinySDK.h */,
+				AE1D5D8A2030135C00C22F81 /* TinySDK.m */,
 			);
 			name = TinySDK;
 			path = ../..;
@@ -307,76 +195,9 @@
 		AE1D5D0720300EB100C22F81 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				AE1D5D0820300EB100C22F81 /* Box.h */,
-				AE1D5D0920300EB100C22F81 /* TFrame.h */,
-				AE1D5D0A20300EB100C22F81 /* Hsml.h */,
-				AE1D5D0B20300EB100C22F81 /* Embed.h */,
-				AE1D5D0C20300EB100C22F81 /* Input.h */,
-				AE1D5D0D20300EB100C22F81 /* Control.h */,
-				AE1D5D0E20300EB100C22F81 /* Debug.h */,
-				AE1D5D0F20300EB100C22F81 /* Label.h */,
-				AE1D5D1020300EB100C22F81 /* ScriptElement.h */,
-				AE1D5D1120300EB100C22F81 /* Response.h */,
-				AE1D5D1220300EB100C22F81 /* XMLParser.h */,
-				AE1D5D1320300EB100C22F81 /* TFViewController.h */,
-				AE1D5D1420300EB100C22F81 /* ElementContext.h */,
-				AE1D5D1520300EB100C22F81 /* HSTextField.h */,
-				AE1D5D1620300EB100C22F81 /* TPShareConfig.h */,
-				AE1D5D1720300EB100C22F81 /* FilePathCache.h */,
-				AE1D5D1820300EB100C22F81 /* TYNumberPad.h */,
-				AE1D5D1920300EB100C22F81 /* TFManager.h */,
-				AE1D5D1A20300EB100C22F81 /* HsCode.h */,
-				AE1D5D1B20300EB100C22F81 /* NetworkConstants.h */,
-				AE1D5D1C20300EB100C22F81 /* NetworkDelegate.h */,
-				AE1D5D1D20300EB100C22F81 /* Window.h */,
-				AE1D5D1E20300EB100C22F81 /* Configuration.h */,
-				AE1D5D1F20300EB100C22F81 /* TFTabBar.h */,
-				AE1D5D2020300EB100C22F81 /* TFTabBarContainer.h */,
-				AE1D5D2120300EB100C22F81 /* Tml.h */,
-				AE1D5D2320300EB100C22F81 /* View.h */,
-				AE1D5D2420300EB100C22F81 /* JSWindow.h */,
-				AE1D5D2520300EB100C22F81 /* MBProgressHUD.h */,
-				AE1D5D2620300EB100C22F81 /* TFPage.h */,
-				AE1D5D2720300EB100C22F81 /* TinyView.h */,
-				AE1D5D2820300EB100C22F81 /* CssParser.h */,
-				AE1D5D2920300EB100C22F81 /* TFDocument.h */,
-				AE1D5D2A20300EB100C22F81 /* Element.h */,
-				AE1D5D2B20300EB100C22F81 /* Reachability.h */,
-				AE1D5D2D20300EB100C22F81 /* TYPasswordCover.h */,
-				AE1D5D2E20300EB100C22F81 /* Document.h */,
-				AE1D5D2F20300EB100C22F81 /* TinyPlus */,
-				AE1D5D3220300EB100C22F81 /* WindowsManagerProtocol.h */,
-				AE1D5D3320300EB100C22F81 /* DocumentContext.h */,
-				AE1D5D3420300EB100C22F81 /* ViewMapping.h */,
-				AE1D5D3520300EB100C22F81 /* Phlog.h */,
-				AE1D5D3720300EB100C22F81 /* XMLNode.h */,
-				AE1D5D3820300EB100C22F81 /* TYKeyboardDelegate.h */,
-				AE1D5D3920300EB100C22F81 /* Request.h */,
-				AE1D5D3A20300EB100C22F81 /* ViewContext.h */,
-				AE1D5D3B20300EB100C22F81 /* PositionView.h */,
-				AE1D5D3C20300EB100C22F81 /* ViewConstants.h */,
-				AE1D5D3D20300EB100C22F81 /* UMessage.h */,
-				AE1D5D3E20300EB100C22F81 /* Password.h */,
-				AE1D5D3F20300EB100C22F81 /* UIButton+Block.h */,
-				AE1D5D4020300EB100C22F81 /* JSFunction.h */,
-				AE1D5D4120300EB100C22F81 /* TYGlobal.h */,
-				AE1D5D4220300EB100C22F81 /* TDAir.h */,
-				AE1D5D4320300EB100C22F81 /* UIColorAdditions.h */,
-				AE1D5D4420300EB100C22F81 /* TextNode.h */,
-				AE1D5D4520300EB100C22F81 /* NativeNetworkCenter.h */,
-				AE1D5D4620300EB100C22F81 /* RichText.h */,
 			);
 			name = include;
 			path = TinySDK/Classes/include;
-			sourceTree = "<group>";
-		};
-		AE1D5D2F20300EB100C22F81 /* TinyPlus */ = {
-			isa = PBXGroup;
-			children = (
-				AE1D5D3020300EB100C22F81 /* TPTPSnsPlatform.h */,
-				AE1D5D3120300EB100C22F81 /* TinyPlus.h */,
-			);
-			path = TinyPlus;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -449,66 +270,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1D5D5F20300EB100C22F81 /* TFTabBarContainer.h in Headers */,
-				AE1D5D6320300EB100C22F81 /* JSWindow.h in Headers */,
-				AE1D5D4920300EB100C22F81 /* Hsml.h in Headers */,
-				AE1D5D4820300EB100C22F81 /* TFrame.h in Headers */,
-				AE1D5D5520300EB100C22F81 /* TPShareConfig.h in Headers */,
-				AE1D5D8220300EB100C22F81 /* TextNode.h in Headers */,
-				AE1D5D5020300EB100C22F81 /* Response.h in Headers */,
-				AE1D5D5920300EB100C22F81 /* HsCode.h in Headers */,
-				AE1D5D5C20300EB100C22F81 /* Window.h in Headers */,
-				AE1D5D6820300EB100C22F81 /* TFDocument.h in Headers */,
-				AE1D5D5720300EB100C22F81 /* TYNumberPad.h in Headers */,
-				AE1D5D8120300EB100C22F81 /* UIColorAdditions.h in Headers */,
-				AE1D5D7F20300EB100C22F81 /* TYGlobal.h in Headers */,
-				AE1D5D7920300EB100C22F81 /* PositionView.h in Headers */,
-				AE1D5D7C20300EB100C22F81 /* Password.h in Headers */,
-				AE1D5D7220300EB100C22F81 /* ViewMapping.h in Headers */,
-				AE1D5D4F20300EB100C22F81 /* ScriptElement.h in Headers */,
-				AE1D5D6E20300EB100C22F81 /* TPTPSnsPlatform.h in Headers */,
-				AE1D5D4C20300EB100C22F81 /* Control.h in Headers */,
-				AE1D5D6420300EB100C22F81 /* MBProgressHUD.h in Headers */,
-				AE1D5D5A20300EB100C22F81 /* NetworkConstants.h in Headers */,
-				AE1D5D5320300EB100C22F81 /* ElementContext.h in Headers */,
-				AE1D5D4E20300EB100C22F81 /* Label.h in Headers */,
-				AE1D5D4720300EB100C22F81 /* Box.h in Headers */,
-				AE1D5D7120300EB100C22F81 /* DocumentContext.h in Headers */,
-				AE1D5D7520300EB100C22F81 /* XMLNode.h in Headers */,
-				AE1D5D5D20300EB100C22F81 /* Configuration.h in Headers */,
-				AE1D5D5B20300EB100C22F81 /* NetworkDelegate.h in Headers */,
-				AE1D5D5620300EB100C22F81 /* FilePathCache.h in Headers */,
-				AE1D5D6920300EB100C22F81 /* Element.h in Headers */,
-				AE1D5D7820300EB100C22F81 /* ViewContext.h in Headers */,
-				AE1D5D5E20300EB100C22F81 /* TFTabBar.h in Headers */,
-				AE1D5D6D20300EB100C22F81 /* Document.h in Headers */,
-				AE1D5D7620300EB100C22F81 /* TYKeyboardDelegate.h in Headers */,
-				AE1D5D6520300EB100C22F81 /* TFPage.h in Headers */,
-				AE1D5D7B20300EB100C22F81 /* UMessage.h in Headers */,
-				AE1D5D7020300EB100C22F81 /* WindowsManagerProtocol.h in Headers */,
-				AE1D5D6020300EB100C22F81 /* Tml.h in Headers */,
-				AE1D5D7D20300EB100C22F81 /* UIButton+Block.h in Headers */,
-				AE1D5D5420300EB100C22F81 /* HSTextField.h in Headers */,
-				AE1D5D5820300EB100C22F81 /* TFManager.h in Headers */,
-				AE1D5D5120300EB100C22F81 /* XMLParser.h in Headers */,
-				AE1D5D5220300EB100C22F81 /* TFViewController.h in Headers */,
-				AE1D5D6220300EB100C22F81 /* View.h in Headers */,
-				AE1D5D7A20300EB100C22F81 /* ViewConstants.h in Headers */,
-				AE1D5D8420300EB100C22F81 /* RichText.h in Headers */,
-				AE1D5D6620300EB100C22F81 /* TinyView.h in Headers */,
-				AE1D5D7320300EB100C22F81 /* Phlog.h in Headers */,
-				AE1D5D7E20300EB100C22F81 /* JSFunction.h in Headers */,
-				AE1D5D6720300EB100C22F81 /* CssParser.h in Headers */,
-				AE1D5D4D20300EB100C22F81 /* Debug.h in Headers */,
-				AE1D5D6F20300EB100C22F81 /* TinyPlus.h in Headers */,
-				AE1D5D4B20300EB100C22F81 /* Input.h in Headers */,
-				AE1D5D8020300EB100C22F81 /* TDAir.h in Headers */,
 				1888492743CFE17956E2C7568D569678 /* TinySDK-umbrella.h in Headers */,
-				AE1D5D7720300EB100C22F81 /* Request.h in Headers */,
-				AE1D5D4A20300EB100C22F81 /* Embed.h in Headers */,
-				AE1D5D6C20300EB100C22F81 /* TYPasswordCover.h in Headers */,
-				AE1D5D6A20300EB100C22F81 /* Reachability.h in Headers */,
-				AE1D5D8320300EB100C22F81 /* NativeNetworkCenter.h in Headers */,
+				AE1D5D8B2030135C00C22F81 /* TinySDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1D5D8C2030135C00C22F81 /* TinySDK.m in Sources */,
 				8209D98B24B235B6F5EC9E8DD4E0C951 /* ReplaceMe.m in Sources */,
 				D670CFB4BAE0B1DF93C1803A7A6FD915 /* TinySDK-dummy.m in Sources */,
 			);
