@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'TinySDK/Classes/**/*'
-  
+  s.vendored_libraries = 'TinySDK/Assets/libTiny.a','TinySDK/Assets/libTinyDebug.a','TinySDK/Assets/libTinyFrame.a'
+
   # s.resource_bundles = {
   #   'TinySDK' => ['TinySDK/Assets/*.png']
   # }

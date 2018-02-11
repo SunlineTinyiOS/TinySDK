@@ -181,7 +181,6 @@
 		AB04D29877E2E0ED536FF87E147EF4B9 /* TinySDK */ = {
 			isa = PBXGroup;
 			children = (
-				AE1D5D0720300EB100C22F81 /* include */,
 				DDA7B644F3F35FE3A9285F78522A2586 /* ReplaceMe.m */,
 				6F8131ECE164FE647EA4D4D372E622B3 /* Pod */,
 				762D464C18E07AEDCD5C8078FB8F846B /* Support Files */,
@@ -190,14 +189,6 @@
 			);
 			name = TinySDK;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		AE1D5D0720300EB100C22F81 /* include */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = include;
-			path = TinySDK/Classes/include;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
